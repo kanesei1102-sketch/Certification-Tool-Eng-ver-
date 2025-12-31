@@ -144,3 +144,12 @@ if len(data_dict) >= 2:
 
 else:
     st.info("Please input data for at least 2 groups.")
+    # --- Footer Disclaimer for English Version ---
+    st.divider()
+    st.caption("【Disclaimer】")
+    st.caption("""
+    This tool is intended for assistive purposes in statistical analysis and data visualization. 
+    While the calculations are based on reliable libraries, final interpretations and conclusions 
+    must be made by the user based on professional expertise. 
+    The developer assumes no responsibility for any outcomes resulting from the use of this software.
+    """)
